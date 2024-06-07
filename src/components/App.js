@@ -19,6 +19,7 @@ setNumber(prevNumber=>[...prevNumber,parseInt(value,10)])
   return (
     <div>
         {/* Do not remove the main div */}
+        <h1>Sum Calculator</h1>
         <input onChange={(e)=>handleChange(e.target.value)} type="number"></input>
         <p>Sum: {sumtotal}</p>
     </div>
